@@ -1,0 +1,375 @@
+.main {
+    width: 980px;
+    height: 455px;
+    margin-left: 220px;
+    margin-top: 10px;
+}
+
+.focus {
+    float: left;
+    width: 721px;
+    height: 455px;
+}
+
+.focus img {
+    width: 721px;
+    height: 455px;
+}
+
+
+/* 轮播图demo*/
+.demo {
+    width: 721px;
+    height: 455px;
+    margin: 0px auto;
+    overflow: hidden;
+    /*用于隐藏超出展示容器的内容部分*/
+}
+
+.demo1 {
+    width: 1442px;
+    height: 455px;
+    margin: 0px auto;
+    animation: text 5s infinite linear;
+    font-size: 0px;
+    /*消除图片间隔*/
+    overflow: hidden;
+
+}
+
+.demo1 img {
+    width: 721px;
+    height: 455px;
+    float: left;
+}
+
+@keyframes text {
+
+    /*0%-20%是播放下一个图片，0%-10%是图片暂停的时间*/
+
+    45% {
+        margin-left: 0px;
+    }
+
+    55% {
+        margin-left: -721px;
+    }
+
+
+}
+
+.arrow_l,
+.arrow_r {
+    color: #e4e4e4;
+    position: absolute;
+    top: 50%;
+    width: 23px;
+    height: 50px;
+    line-height: 50px;
+    background-color: rgba(0, 0, 0, 0.3);
+    margin-top: -25px;
+    font-size: 30px;
+
+}
+
+.arrow_r {
+    right: 383px;
+}
+
+.newsflash {
+    float: right;
+    width: 250px;
+    height: 455px;
+}
+
+.news {
+    height: 165px;
+    border: 1px solid #e4e4e4;
+}
+
+.news-hd {
+    height: 33px;
+    line-height: 33px;
+    border-bottom: 1px dotted #e4e4e4;
+    padding: 0 15px;
+}
+
+.news-hd h5 {
+    float: left;
+    font-size: 14px;
+}
+
+.news-hd .more {
+    float: right;
+}
+
+
+.news-bd {
+    padding: 5px 15px 0;
+}
+
+.news-bd ul li {
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.lifeservice {
+    overflow: hidden;
+    height: 209px;
+    border: 1px solid #e4e4e4;
+    border-top: 0;
+}
+
+.lifeservice ul {
+    width: 252px;
+}
+
+.lifeservice ul li {
+    float: left;
+    width: 63px;
+    height: 71px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    text-align: center;
+}
+
+.lifeservice ul li i {
+    display: inline-block;
+    width: 24px;
+    height: 28px;
+    background-color: pink;
+    margin-top: 12px;
+}
+
+.lifeservice ul li i img {
+    width: 24px;
+    height: 28px;
+}
+
+.bargain {
+    margin-top: 5px;
+
+}
+
+.bargain img {
+    width: 270px;
+    height: 72px;
+}
+
+/* 猜你喜欢模块 */
+.like {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    height: 262px;
+}
+
+.like_hd {
+    padding-bottom: 10px;
+}
+
+.like_hd ul li {
+    position: relative;
+    left: 0;
+    font-size: 18px;
+}
+
+.like_hd ul a {
+    position: absolute;
+    right: 0;
+    font-size: 12px;
+}
+
+.like_hd img {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: 1183px;
+    top: 4px;
+}
+
+.like_bd a:hover {
+    font-weight: 500;
+}
+
+.like_bd img {
+    width: 200px;
+    height: 160px;
+
+}
+
+.like_bd {
+    height: 232px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+}
+
+.like_bd ul {
+    width: 1212px;
+}
+
+.like_bd ul li {
+    position: relative;
+    float: left;
+    text-align: center;
+}
+
+.like_bd ul li p {
+    font-size: 12px;
+    line-height: 21px;
+}
+
+.like_bd ul li i {
+    font-size: 18px;
+    color: #df3033;
+}
+
+
+/* 视频模块 */
+.video video {
+    width: 100%;
+    height: 200px;
+
+}
+
+
+/* 楼层区域模块  */
+.jiadian {
+    margin-top: 28px;
+}
+
+.jiadian_hd {
+    height: 30px;
+    border-bottom: 2px solid #c81623;
+}
+
+.jiadian_hd h4 {
+    float: left;
+    font-size: 18px;
+    font-weight: 400;
+    color: #c81623;
+}
+
+.tab_list {
+    float: right;
+}
+
+.tab_list ul li {
+    line-height: 30px;
+    float: left;
+}
+
+.tab_list ul li a {
+    padding: 0 10px;
+}
+
+.jiadian_bd {
+    height: 360px;
+}
+
+.wd_210 {
+    float: left;
+    width: 210px;
+    height: 360px;
+    text-align: center;
+    background-color: #f9f9f9;
+    /* text-align: center; */
+}
+
+.wd_210 ul li {
+    width: 86px;
+    height: 32px;
+    float: left;
+    font-size: 12px;
+    margin-left: 14px;
+    margin-top: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.wd_210 span img {
+    margin-top: 24px;
+}
+
+.wd_210 img {
+    width: 152px;
+    height: 196px;
+}
+
+.wd_220 img {
+    width: 202px;
+    height: 157px;
+}
+
+.wd_330 img {
+    width: 330px;
+    height: 360px;
+}
+
+.ht_360 img {
+    width: 202px;
+    height: 360px;
+}
+
+.wd_330 {
+    float: left;
+    width: 330px;
+}
+
+.wd_220 {
+    text-align: center;
+    line-height: 360px;
+    float: left;
+    width: 220px;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.wd_220 ul li {
+    width: 220px;
+    height: 180px;
+    line-height: 180px;
+}
+
+.bottom {
+    border-bottom: 1px solid #ddd;
+}
+
+.jiadian img:hover {
+    margin-left: 10px;
+    transition: .5s;
+}
+
+
+
+/* 左侧导航  */
+.top_left {
+    position: fixed;
+    top: 250px;
+    left: 50%;
+    margin-left: -670px;
+    height: 10px;
+    width: 66px;
+}
+
+.top_left ul li {
+    line-height: 2;
+    border-bottom: 1px solid #e3e3e3;
+    text-align: center;
+    background-color: #fff;
+}
+
+.top_left ul a:first-child li {
+    color: #fff;
+    background-color: #df3033;
+}
+
+
+
+
+/* 实验报告 */
+.report {
+    font-weight: 900;
+    color: black;
+}
